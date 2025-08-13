@@ -24,12 +24,12 @@ const MobileNavbar = ({ open, setOpen }: Props) => {
 
       <div
         className={clsx(
-          "md:hidden fixed inset-0 z-40 h-[100vh] bg-black/60 backdrop-blur-[1px]",
-          "translate-x-0 pointer-events-none",
+          "md:hidden fixed inset-0 z-40 bg-black/60 backdrop-blur-[1px]",
+
           "transform transition-transform duration-300 ease-[cubic-bezier(0.22,1,0.36,1)] transform-gpu will-change-transform",
           open
-            ? "translate-x-0 pointer-events-auto"
-            : "translate-x-full pointer-events-none delay-400"
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 delay-400 pointer-events-none"
         )}
         onClick={() => setOpen(false)}
         aria-hidden="true"
@@ -38,7 +38,7 @@ const MobileNavbar = ({ open, setOpen }: Props) => {
       {/* bottom sheet menu: slides up after overlay (delay when opening) */}
       <div
         className={clsx(
-          "bg-white md:hidden fixed inset-0 z-50 h-[100vh] rounded-t-[2xl] shadow-xl",
+          "bg-white md:hidden fixed inset-0 z-70 left-0 w-[60%] rounded-t-[2xl] shadow-xl overflow-hidden",
           "transform transition-transform duration-400 ease-[cubic-bezier(0.22,1,0.36,1)] transform-gpu",
           open ? "translate-y-0 delay-400" : "translate-y-full delay-0"
         )}
