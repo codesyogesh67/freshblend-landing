@@ -3,25 +3,25 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --background: oklch(0.99 0 0);
-  --foreground: oklch(0.16 0.02 40);
+  --background: #beb996; /* light background */
+  --foreground: #2a2a2a; /* dark gray text */
 
-  --primary: oklch(0.78 0.12 70);
-  --primary-foreground: oklch(0.16 0.02 40);
+  --primary: #faf8f6; /* warm light brown */
+  --primary-foreground: #2a2a2a; /* dark gray text on primary */
 
-  --secondary: oklch(0.95 0.02 50);
-  --secondary-foreground: oklch(0.2 0.02 50);
+  --secondary: #ffffff; /* light beige */
+  --secondary-foreground: #333333; /* darker gray text */
 
-  --accent: oklch(0.86 0.1 145);
-  --accent-foreground: oklch(0.18 0.02 145);
+  --accent: #7fc8a9; /* soft green/teal */
+  --accent-foreground: #2b463c; /* deep green text on accent */
 
-  --muted: oklch(0.96 0.01 40);
-  --muted-foreground: oklch(0.5 0.02 40);
+  --muted: #f5f5f5; /* very light gray */
+  --muted-foreground: #7a7a7a; /* medium gray text */
 
-  --border: oklch(0.92 0 0);
-  --input: oklch(0.92 0 0);
-  --ring: oklch(0.78 0.12 70);
-  --radius: 0.625rem;
+  --border: #e0e0e0; /* light gray border */
+  --input: #e0e0e0; /* same as border */
+  --ring: #d4a373; /* matches primary */
+  --radius: 0.625rem; /* ~10px rounded corners */
 }
 
 @media (prefers-color-scheme: dark) {
