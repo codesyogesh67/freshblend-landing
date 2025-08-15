@@ -55,7 +55,7 @@ const Navbar = (props: Props) => {
           {/* Brand */}
           <Link
             href="/"
-            className="font-semibold [font-family:var(--font-serif)] text-2xl text-secondary"
+            className="font-semibold [font-family:var(--font-serif)] text-2xl text-white"
           >
             FreshBlend
           </Link>
@@ -67,7 +67,7 @@ const Navbar = (props: Props) => {
               <li key={l.label}>
                 <Link
                   href={l.href}
-                  className="text-secondary hover:text-foreground transition-colors"
+                  className="text-white hover:text-foreground transition-colors"
                 >
                   {l.label}
                 </Link>

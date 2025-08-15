@@ -12,9 +12,9 @@ const JuicesOverview = (props: Props) => {
           <Image src="/juices-overview.png" fill alt="Juices Overview" />
         </div>
         <div className="flex-1 text-center lg:text-left">
-          <p className="mb-1 text-[#BEB996] font-bold">Drink for Health</p>
+          <p className="mb-1 text-primary font-bold">Drink for Health</p>
           <h2 className="text-4xl lg:text-5xl font-semibold mb-8">
-            Fresh Fruit <span className="text-[#D8938A]">Juices</span>
+            Fresh Fruit <span className="text-secondary">Juices</span>
           </h2>
           <p className="text-base sm:text-lg mb-10 max-w-3xl text-center lg:text-left">
             Nourish your day with fresh, cold-pressed fruit juices made from
@@ -23,7 +23,7 @@ const JuicesOverview = (props: Props) => {
             hydration—without added sugar or artificial flavors. Sip clean, feel
             good.
           </p>
-          <Button className="px-10 py-6 rounded-3xl hover:bg-[#D8938A] border border-[#D8938A] hover:text-white  cursor-pointer">
+          <Button className="px-10 py-6 rounded-3xl bg-white hover:bg-secondary border border-secondary hover:text-white  cursor-pointer">
             Buy Now
           </Button>
         </div>

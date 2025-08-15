@@ -55,7 +55,7 @@ const MobileNavbar = ({ open, setOpen }: Props) => {
             <Link
               key={link.label}
               href={`#${link.label.toLowerCase()}`}
-              className="px-2 py-1 rounded-sm hover:text-blue-500 transition-colors focus:outline-none focus-visible:bg-blue-500 focus-visible:text-white"
+              className="px-2 py-1 rounded-sm hover:text-primary transition-colors focus:outline-none focus-visible:bg-blue-500 focus-visible:text-white"
             >
               {link.label}
             </Link>
