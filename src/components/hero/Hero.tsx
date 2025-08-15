@@ -9,7 +9,7 @@ const Hero = (props: Props) => {
     <>
       {/* background image */}
 
-      <section className="mt-20">
+      <section className="mt-20 max-w-7xl mx-auto px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28">
         <div className="flex flex-col-reverse lg:flex-row gap-10 items-center">
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl text-white lg:text-5xl font-bold leading-tight mb-8 text-center lg:mx-0 lg:text-left max-w-3xl">
