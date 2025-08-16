@@ -10,8 +10,10 @@ export default function Home() {
       <Navbar />
       <main className="">
         <Hero />
-        <JuicesOverview />
-        <Products />
+        <div className="bg-white">
+          <JuicesOverview />
+          <Products />
+        </div>
       </main>
     </>
   );

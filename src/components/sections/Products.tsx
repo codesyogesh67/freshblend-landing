@@ -6,7 +6,7 @@ interface Props {}
 
 const Products = (props: Props) => {
   return (
-    <div className="bg-white px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28 mx-auto max-w-7xl py-20">
+    <div className="px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28 mx-auto max-w-7xl py-20">
       <div className="text-center mb-16">
         <p className="text-primary font-bold mb-1">Best for you</p>
         <h2 className="text-4xl sm:text-5xl font-semibold mb-8">
